@@ -1,0 +1,6 @@
+Check spell
+More space 
+Built in linter
+Local history
+View structure
+Refactor rename
