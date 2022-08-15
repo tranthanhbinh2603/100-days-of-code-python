@@ -10,6 +10,7 @@
 from turtle import *
 from time import *
 from stake_class import *
+from food import *
 
 screen = Screen()
 screen.title('Trò chơi rắn - Stake game')
@@ -28,6 +29,8 @@ screen.onkey(snake.down, 'Down')
 screen.onkey(snake.left, 'Left')
 screen.onkey(snake.right, 'Right')
 
+food = Food()
+
 game_is_on = True
 while game_is_on:
     #Code để update màn hình
@@ -37,5 +40,9 @@ while game_is_on:
     # for seg in segment:
     #     seg.forward(20)
     snake.move()
+
+    #Chạm vào thức ăn
+    if (snake.head.distance(food) < 15):
+        food.refesh()
 
 screen.exitonclick()

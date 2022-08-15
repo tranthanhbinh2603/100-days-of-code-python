@@ -20,6 +20,7 @@ class Snake():
             turtle.color('white')
             turtle.goto(i)
             segment.append(turtle)
+        self.head = segment[0]
 
     def move(self):
         for seg1 in range(len(segment) - 1, 0, -1):
