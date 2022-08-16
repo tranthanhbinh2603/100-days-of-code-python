@@ -7,18 +7,16 @@
 # 6. Sự kiện khi rắn chạm vào tường
 # 7. Sự kiện rẵn chạm vào chính nó
 
-from turtle import *
-from time import *
 from stake_class import *
 from food import *
+from scoreboard import *
+from math import *
 
 screen = Screen()
 screen.title('Trò chơi rắn - Stake game')
 screen.setup(600, 600)
 screen.bgcolor('black')
 screen.tracer(0) #Tắt cập nhật màn hình và tắt cả hoạt ảnh rùa
-
-
 
 snake = Snake()
 
@@ -30,6 +28,7 @@ screen.onkey(snake.left, 'Left')
 screen.onkey(snake.right, 'Right')
 
 food = Food()
+score = scoreboard()
 
 game_is_on = True
 while game_is_on:
@@ -44,5 +43,14 @@ while game_is_on:
     #Chạm vào thức ăn
     if (snake.head.distance(food) < 15):
         food.refesh()
+        score.incScore()
+        snake.exten_snake()
+
+    #Chạm vào tường:
+    if abs(snake.head.xcor()) > 280 or abs(snake.head.ycor()) > 280:
+        game_is_on = False
+        score.game_over()
+
+    #Chạm vào rắn
 
 screen.exitonclick()

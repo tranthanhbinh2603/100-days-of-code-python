@@ -7,7 +7,7 @@ class Food(Turtle):
         self.color('blue')
         self.shape('circle')
         self.penup()
-        self.shapesize(stretch_len= 0.5, stretch_wid=0.5)
+        self.shapesize(stretch_len= 1, stretch_wid=1)
         #Gọi 1 hàm khác
         self.refesh()
     def refesh(self):
