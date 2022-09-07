@@ -29,12 +29,13 @@ screen.onkey(snake.right, 'Right')
 
 food = Food()
 score = scoreboard()
+count = 0
 
 game_is_on = True
 while game_is_on:
     #Code để update màn hình
     screen.update()
-    sleep(0.05)
+    sleep(0.1)
     #Di chuyển rắn
     # for seg in segment:
     #     seg.forward(20)
@@ -52,5 +53,11 @@ while game_is_on:
         score.game_over()
 
     #Chạm vào rắn
+    for segment in snake.segments[1:]:
+        if snake.head.distance(segment) < 10 and count != 0:
+            game_is_on = False
+            score.game_over()
+
+    count+=1
 
 screen.exitonclick()

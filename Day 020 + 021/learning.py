@@ -21,3 +21,13 @@ nemo = Fish()
 nemo.breathe()
 nemo.swim()
 print(nemo.num_eyes)
+
+
+#Sliceing
+piano_key = ["a", "b", "c", "d", "e", "f", "g"]
+#           0   1    2    3    4    5    6    7
+#Nó theo lát chia
+print(piano_key[2:5])
+print(piano_key[0:7:2])
+print(piano_key[::2]) #Dòng này y như dòng trên
+print(piano_key[::-1]) #Đảo ngược mảng trong python
