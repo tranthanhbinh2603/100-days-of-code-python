@@ -12,30 +12,24 @@
 # 8. Tạo bảng điểm
 
 from turtle import *
+from paddle import *
 
 
 turtle = Turtle()
 screen = Screen()
 
-
-
-
 screen.bgcolor('black')
 screen.setup(800,600)
+screen.tracer(8)
 
-turtle.hideturtle()
-turtle.color('white')
-turtle.penup()
-turtle.setposition(350, 0)
-turtle.shape('square')
-turtle.shapesize(4.5, 1.5)
-turtle.showturtle()
-
-def up():
-    turtle.setheading(90)
-    turtle.left(100)
+l_paddle = paddle((350, 0))
 
 screen.listen()
-screen.onkey(fun=up, key='Up')
+screen.onkey(fun=l_paddle.up, key='Up')
+screen.onkey(fun=l_paddle.down, key='Down')
+
+game_is_on = True
+while game_is_on:
+    screen.update()
 
 screen.exitonclick()
