@@ -1,6 +1,7 @@
 import random
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
+RANDOM = [True, True, False, False, False, False, False]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 
@@ -12,13 +13,14 @@ class CarManager():
         self.list_car = []
 
     def gen_car(self):
-        turtle = Turtle()
-        turtle.penup()
-        turtle.shapesize(stretch_wid=1, stretch_len=2)
-        turtle.shape('square')
-        turtle.color(choice(COLORS))
-        turtle.goto(randint(320, 360), randint(-300, 300))
-        self.list_car.append(turtle)
+        if choice(RANDOM):
+            turtle = Turtle()
+            turtle.penup()
+            turtle.shapesize(stretch_wid=1, stretch_len=2)
+            turtle.shape('square')
+            turtle.color(choice(COLORS))
+            turtle.goto(randint(320, 360), randint(-265, 280))
+            self.list_car.append(turtle)
 
     def moving(self):
         for index in range(1, len(self.list_car) - 1):
