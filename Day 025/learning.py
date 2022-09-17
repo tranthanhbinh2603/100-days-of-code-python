@@ -18,6 +18,7 @@
 #Tham khảo thêm:
 # https://pandas.pydata.org/docs/reference/index.html
 # https://pandas.pydata.org/docs/
+import pandas
 from pandas import *
 data = read_csv('weather_data.csv')
 # print(type(data)) #<class 'pandas.core.frame.DataFrame'> - Dữ liệu 1 bảng - 2 chiều
@@ -30,3 +31,26 @@ print(data_temp_list)
 print(sum(data_temp_list) / len(data_temp_list)) #Thử thách tính trung bình
 #Một cách khác
 print(data["temp"].mean())
+#Cũng có thể thử tính max
+print(data["temp"].max())
+# -----------------------------
+print(data.condition)
+#Lấy data từ row
+print(data[data.day == "Monday"])
+print(data[data.temp == data.temp.max()])
+
+#Lấy 1 ô trong bảng giá trị
+monday = data[data.day == "Monday"]
+print(monday.temp)
+print(f"Do F: {int(monday.temp) * 1.8 + 32}")
+
+#Tạo 1 dataframe:
+data_dict = {
+    "student": ["A", "B", "C"],
+    "score": [34, 35, 32]
+}
+data = pandas.DataFrame(data_dict)
+data.to_csv("new_data.csv")
+
+
+
