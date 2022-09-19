@@ -2,7 +2,7 @@
 import random
 from turtle import *
 
-import pandas
+#import pandas
 from pandas import *
 
 screen1 = Screen()
@@ -46,12 +46,15 @@ while game_is_on:
             print('Truc!')
 
 ###Đưa các states chưa đạt được vào trong 1 file csv
-states_not_find = []
-for i in copy_data_state.tolist():
-    if not i in list_correct:
-        states_not_find.append(i)
+# states_not_find = []
+# for i in copy_data_state.tolist():
+#     if not i in list_correct:
+#         states_not_find.append(i)
 
-df_to_export = pandas.DataFrame(states_not_find)
+#Code nhanh hơn:
+states_not_find = [state for state in copy_data_state.tolist() if not state in list_correct]
+
+df_to_export = DataFrame(states_not_find)
 df_to_export.to_csv('learn.csv')
 
 
