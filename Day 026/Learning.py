@@ -43,4 +43,11 @@ for (key, value) in student_dict.items():
     print(f"{key} {value}")
 #Create datafrime
 student_data_frime = DataFrame(student_dict)
+#for datafrime:
+# for (key, value) in student_data_frime.item():
+#     print(value)
+for (key, value) in student_data_frime.iterrows():
+    if value.student == "Angela":
+        print(value.score)
+
 
