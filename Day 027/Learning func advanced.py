@@ -54,3 +54,10 @@ car = Car(name="Tran Thanh Binh", score="10000")
 car2 = Car_not_error(name = "Hacker")
 print(f"{car.name}\n{car.score}")
 print(f"{car2.name}\n{car2.score}")
+
+
+def all_aboard(a, *args, **kw):
+    print(a, args, kw)
+
+
+all_aboard(4, 7, 3, 0, x=10, y=64)
