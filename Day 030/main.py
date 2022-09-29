@@ -101,7 +101,7 @@ scrren.title('Password Manager')
 #Link đến Tkter về canvas: https://tkdocs.com/tutorial/canvas.html
 canvas_logo = Canvas(width=200, height=200)
 image_logo = PhotoImage(file='logo.png')
-canvas_logo.create_image(100, 112, image=image_logo)
+canvas_logo.create_image(300, 100, image=image_logo)
 canvas_logo.grid(column=1, row=0)
 
 #Xem về column span: https://replit.com/@appbrewery/grid-columnspan-demo#main.py
