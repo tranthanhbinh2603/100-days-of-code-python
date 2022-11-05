@@ -1,0 +1,77 @@
+I. Các trình soạn thảo sử dung
+- Antom (https://atom.io/, các package: https://docs.google.com/document/d/e/2PACX-1vQNuhDC5pFXEVVNGasvddKuDHEXnqR033lsSD5tLA9NiEdHrsYM4MXVEXja2RnBgsCxK6XEo6YkMOFI/pub)
+- Pycharm
+- Vs code (cái mình xài)
+- Repl.it
+- Codepen
+
+II. Internet thực sự là gì
+- Là 1 dãy các máy tính được kết nối với nhau
+- Có 1 loại là web server: Chúng được bật 24/7, sẵn sàng thực hiện bất cứ truy vấn nào thực hiện trong máy
+- Đường đi của nhậP 1 trang web:
++ Đầu tiên, máy tính client gửi 1 request đến ISP, sau đó ISP gửi đến DNS Server yêu cầu lấy 1 địa chỉ ip.
++ sau khi dns trả về địa chỉ IP 192.929.292.330 (Example thôi), ngay lập tức client gửi tiếp thêm 1 request lên isp. Lần này, isp sẽ gửi lên Internet backbone (Map của bone có ở https://www.submarinecablemap.com/), tìm máy chu có ip 192.929.292.330, máy chủ trả lại toàn bộ file tất cả các tệp để hiển thị trang web, trả về máy tính client và trang web được hiển thị
++ Tất cả chỉ mất chưa đến vài ms!
+
+III. Các yếu tố cấu thành nên 1 trang web:
+- Browser (Nên dùng chrome trong khoá học này)
+- File code: HTML (Xương sống), CSS (người trang trí), JS (Có hành động)
+- Nghịch trong devtool: Chỉnh text, phát hiện ra link và header <h1></h1>
+
+IV. Sơ lược về HTML file:
+- Có mối quan hệ với GSM file
+- 1 file căn bản thường có 2 phần body và header
+- Các thẻ sử dụng: h1-h6, br.
+- Thông tin thường tìm kiếm: devdocs, w3schools, msn.
+- xem thêm ex ở basic1html.html
+- Không giống như khi enter trong văn bản, muốn xuống dòng phải dùng thẻ br
+
+V. The Anatomy of an HTML Tag
+- Thẻ html chỉ ra cách để trang trí 1 trang web trên trình duyệt
+- Thẻ html có loại là self-closing tag. 
+- Attributes
+
+VI. What is The HTML Boilerplate?
+- Tạo 1 thư mục mới và file mới
+- Lưu file
+- Thẻ <!DOCTYPE html>: Xác định phiên bản HTML là HTML5
+- Thẻ <meta charset="UTF-8">:
++ Giúp cho người nước ngoài đọc được chữ của mình. Ví dụ: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Mojibakevector.png/1280px-Mojibakevector.png, nếu mà lỗi thì xác định khỏi đọc.
++ Character list utf8: https://www.fileformat.info/info/charset/UTF-8/list.htm
++ List char + emoji: https://unicode-table.com/en/
++ Bài đọc về utf-8: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+- emmet: phím tắt nhắc lệnh nhanh: https://docs.emmet.io/cheat-sheet/, xài lâu kiểu gì cũng nhớ
+- thẻ meta: chứa thông tin cho các hệ thống tìm kiếm, ví dụ https://developers.google.com/search/docs/appearance/snippet#meta-descriptions
+- <title>Document</title>: title của trang web: 
+- Nói chung mấy cái này chả quan trọng mấy đâu. (ít nhất là chưa học khoá web!!!!)
+
+VII. How to Structure Text in HTML
+- Thẻ p
+- Thử thách tìm kiếm trên google cái cách để in nghiêng từ ra
+- i và em, strong với bold tag 
+
+VIII. Bullet list
+- từ khoá tìm kiếm: bullet list html msn
+- 2 dạng list cơ bản:
++ un order list - ul.
++ older list - ol
+- Chưa cần biết nhiều tính chất html
+
+IX. Image
+- 1 thẻ image không thể chỉ có nó được, nó cần cả thông số (Attributes) chứ. Nó có thể là 1 url hoặc là 1 file cục bộ.
+- Copy image address trên chrome
+- Thuộc tính alt: nó giúp cho các hệ thống tìm kiếm search engine có thể tìm ra trang web của bạn.
+- BONUS: Nếu không có hình nào của riêng bạn, bạn hoàn toàn có thể lên https://photobucket.com/ rồi tải hình lên lấy url.
+- Nếu chứa ảnh trên url, nó sẽ đi vào url, nếu cho phép tải hình xuống và hình còn tồn tại (thực ra 2 cái này là 1), hình sẽ hiển thị trên trang web cho bạn. Nếu không nó sẽ hiển thị 1 ô và ghi trong thuộc tính alt. Muốn loại bỏ điều này, ta có thể tải hình xuống rồi đặt trong cùng folder.
+- BONUS: Có thể cắt hình tròn ảnh tại https://crop-circle.imageonline.co/
+- Còn nhiều thuộc tính khác, song khi nào gặp đến nó ta mới xài, cứ từ từ thôi.
+
+X. link
+- Khi nhấn vào đó, nó hiện lên 1 siêu văn bản khác, đó chính là link. Có 1 trò chơi vui về tìm link: https://www.thewikigame.com/
+- Gồm có 2 thuộc tính quan trọng; link và text
+- Nguyên tắc nhấn vào link sẽ chuyển màu
+- # trong link
+- Liên kết file html khác.
+
+
+Xi. Anchor Tags

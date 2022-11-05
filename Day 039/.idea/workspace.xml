@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff3f6ae0-922f-4d87-922d-d0cdac8347b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/.idea/Day 039.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Day2-step/Step7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Day2-step/Step8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Day2-step/Step9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Project-fight-deal/data_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Project-fight-deal/flight_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Project-fight-deal/flight_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Project-fight-deal/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Project-fight-deal/notification_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/Tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/Mail example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/Day1-step/step3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/Day1-step/step3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/Day1-step/step4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/Day1-step/step4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/Day1-step/step5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/Day1-step/step5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/Note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/Note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/.cache/replit/nix/env.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/.config/pip/pip.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/.config/pypoetry/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/.replit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/.upm/store.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/flight_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/flight_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/notification_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/replit.nix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/replit_zip_error_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/doesitcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/f2py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/f2py3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/f2py3.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/flask" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/keyring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/normalizer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/pip3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/pip3.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/pkginfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/poetry" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/pyflakes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/pylsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/replit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/virtualenv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/yapf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/bin/yapf-diff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/CacheControl-0.12.11.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/CacheControl-0.12.11.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Flask-2.2.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Flask-2.2.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Flask-2.2.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Flask-2.2.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Flask-2.2.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/MarkupSafe-2.1.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/MarkupSafe-2.1.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/MarkupSafe-2.1.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/MarkupSafe-2.1.1.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/SecretStorage-3.3.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/SecretStorage-3.3.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Werkzeug-2.2.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Werkzeug-2.2.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Werkzeug-2.2.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Werkzeug-2.2.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/Werkzeug-2.2.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/_cffi_backend.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiohttp-3.8.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiohttp-3.8.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiohttp-3.8.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiohttp-3.8.1.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiosignal-1.2.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiosignal-1.2.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiosignal-1.2.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/aiosignal-1.2.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/async_timeout-4.0.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/async_timeout-4.0.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/async_timeout-4.0.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/async_timeout-4.0.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_cmp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_cmp.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_funcs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_make.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_next_gen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/_version_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/converters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/setters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/validators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attr/validators.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs-22.1.0.dist-info/AUTHORS.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs-22.1.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs-22.1.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs-22.1.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs-22.1.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs-22.1.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs-22.1.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/attrs/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cachy-0.3.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cachy-0.3.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/certifi-2022.6.15.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/certifi-2022.6.15.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cffi-1.15.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cffi-1.15.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cffi-1.15.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cffi-1.15.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cffi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cffi/_embedding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cffi/recompiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer-2.1.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer-2.1.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer-2.1.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer-2.1.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer-2.1.1.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer-2.1.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/assets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/cd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/cli/normalizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/charset_normalizer/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cleo-0.8.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cleo-0.8.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/click-8.1.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/click-8.1.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/click-8.1.3.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/click-8.1.3.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/clikit-0.6.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/clikit-0.6.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/crashtest-0.3.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/crashtest-0.3.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cryptography-37.0.4.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cryptography-37.0.4.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cryptography-37.0.4.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cryptography/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cryptography/hazmat/bindings/_openssl.abi3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/cryptography/hazmat/bindings/_rust.abi3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy-1.6.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy-1.6.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy-1.6.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy-1.6.3.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy-1.6.3.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/_pydevd_packaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/force_pydevd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_calltip_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_completer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_execfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_imports_tipper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_jy_imports_tipper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_saved_modules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_sys_patch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_tipper_common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/fsnotify/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_import_hook.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_imports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_ipython_console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_ipython_console_011.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_is_thread_alive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_localhost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_monkey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_monkey_qt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_umd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_nose.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_parallel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_pytest2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_unittest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_xml_rpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/debugProtocol.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevconsole_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_additional_thread_info_regular.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_breakpoints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_bytecode_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_code_to_source.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_collect_bytecode_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/pydevd_concurrency_logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/pydevd_thread_wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_custom_frames.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_daemon_thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_dont_trace_files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_filtering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_frame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_gevent_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_json_debug_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_net_command.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_net_command_factory_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_net_command_factory_xml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_referrers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_reload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_resolver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_safe_repr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_save_locals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_signature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_source_mapping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_stackless.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_suspended_frames.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_thread_lifecycle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_trace_dispatch_regular.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_traceproperty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_vars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_xml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_eval_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.template.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_tracing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_modify_bytecode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydev_coverage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydev_ipython/inputhookglut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydev_ipython/inputhookpyglet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydev_ipython/inputhookwx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydev_run_in_console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevconsole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/add_code_to_python_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/attach_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_311.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_settrace.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_version.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/python.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/interactive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_file_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/django_debug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/pydevd_plugin_pandas_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/jinja2_debug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/pydevd_line_validation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_tracing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_vendored/pydevd/setup_pydevd_cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/adapter/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/adapter/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/adapter/clients.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/adapter/components.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/adapter/launchers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/adapter/servers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/adapter/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/messaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/singleton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/sockets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/stacks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/timestamp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/common/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/launcher/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/launcher/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/launcher/debuggee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/launcher/handlers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/launcher/output.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/launcher/winapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/public_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/server/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/server/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/server/attach_pid_injected.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/debugpy/server/cli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib-0.3.5.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib-0.3.5.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib-0.3.5.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib-0.3.5.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/scripts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/t32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/t64-arm.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/t64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/w32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/w64-arm.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/w64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/distlib/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/filelock-3.7.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/filelock-3.7.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/blueprints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/cli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/ctx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/debughelpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/globals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/json/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/json/provider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/scaffold.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/templating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/flask/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/frozenlist-1.3.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/frozenlist-1.3.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/frozenlist-1.3.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/frozenlist-1.3.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/frozenlist-1.3.1.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/frozenlist/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/frozenlist/_frozenlist.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/html5lib-1.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/html5lib-1.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/idna-3.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/idna-3.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/importlib_metadata-4.12.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/importlib_metadata-4.12.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/importlib_metadata-4.12.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/importlib_metadata/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/importlib_metadata/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/itsdangerous-2.1.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/itsdangerous-2.1.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/itsdangerous-2.1.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/itsdangerous-2.1.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/jedi-0.18.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/jedi-0.18.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/jedi-0.18.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/jedi-0.18.1.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/jeepney-0.8.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/jeepney-0.8.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/keyring-23.7.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/keyring-23.7.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/keyring-23.7.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/keyring/devpi_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/lockfile-0.12.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/lockfile-0.12.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/msgpack-1.0.4.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/msgpack-1.0.4.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/multidict-6.0.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/multidict-6.0.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/multidict-6.0.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/multidict-6.0.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy-1.23.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy-1.23.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy-1.23.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy-1.23.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy-1.23.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/_typing/_callable.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/_typing/_generic_alias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/_typing/_ufunc.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/_machar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/_multiarray_umath.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/einsumfunc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/einsumfunc.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/getlimits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/include/numpy/npy_math.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/lib/libnpymath.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/tests/test_deprecations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/tests/test_dtype.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/tests/test_einsum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/tests/test_multiarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/tests/test_ufunc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/core/tests/test_umath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/ccompiler_opt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/checks/cpu_asimd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/checks/cpu_asimddp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/checks/cpu_asimdfhm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/checks/cpu_asimdhp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/checks/cpu_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/checks/cpu_neon_fp16.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/checks/cpu_neon_vfpv4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/fcompiler/gnu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/distutils/fcompiler/intel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/f2py/capi_maps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/f2py/crackfortran.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/f2py/f2py2e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/f2py/rules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/f2py/tests/src/f2cmap/.f2py_f2cmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/f2py/tests/src/f2cmap/isoFortranEnvMap.f90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/f2py/tests/test_f2cmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/arraysetops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/arraysetops.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/function_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/function_base.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/npyio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/tests/test_arraysetops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/tests/test_function_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/lib/tests/test_loadtxt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/ma/extras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/ma/tests/test_extras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/_bounded_integers.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/_common.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/_generator.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/_mt19937.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/_pcg64.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/_philox.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/_sfc64.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/bit_generator.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/lib/libnpyrandom.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/random/mtrand.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/testing/_private/extbuild.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/typing/tests/data/reveal/comparisons.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/typing/tests/data/reveal/einsumfunc.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/typing/tests/data/reveal/lib_function_base.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/numpy/typing/tests/test_generic_alias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/packaging-21.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/packaging-21.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/packaging-21.3.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/packaging-21.3.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/parso-0.8.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/parso-0.8.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/parso-0.8.3.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/parso-0.8.3.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pastel-0.2.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pastel-0.2.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pexpect-4.8.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pexpect-4.8.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip-21.1.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_internal/build_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_internal/operations/install/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/cachecontrol.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/certifi.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/chardet.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/colorama.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/distlib.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/distlib/scripts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/distro.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/html5lib.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/idna.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/msgpack.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/packaging.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/pep517.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/pkg_resources.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/progress.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/pyparsing.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/requests.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/providers.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/reporters.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/resolvers.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/structs.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/six/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/six/moves/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/six/moves/configparser.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/tenacity.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/tomli.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/urllib3.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pip/_vendor/webencodings.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pkginfo-1.8.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pkginfo-1.8.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/platformdirs-2.5.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/platformdirs-2.5.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pluggy-1.0.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pluggy-1.0.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pluggy-1.0.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pluggy-1.0.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry-1.1.14.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry-1.1.14.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry-1.1.14.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry-1.1.14.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/console/commands/init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/console/commands/self/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/installation/executor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/mixology/incompatibility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/packages/locker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/repositories/pypi_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry/utils/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry_core-1.0.8.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/poetry_core-1.0.8.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ptyprocess-0.7.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ptyprocess-0.7.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pycparser-2.21.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pycparser-2.21.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pyflakes-2.4.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pyflakes-2.4.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pyflakes-2.4.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pyflakes-2.4.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylev-1.4.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylev-1.4.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/hookspecs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/plugins/autopep8_format.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/plugins/flake8_lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/plugins/pycodestyle_lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/plugins/pylint_lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/plugins/yapf_format.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/python_lsp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pylsp/text_edit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pyparsing-3.0.9.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pyparsing-3.0.9.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_jsonrpc-1.0.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_jsonrpc-1.0.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_jsonrpc-1.0.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_jsonrpc-1.0.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_server-1.5.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_server-1.5.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_server-1.5.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_server-1.5.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/python_lsp_server-1.5.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig-1.2.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig-1.2.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig-1.2.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig-1.2.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig-1.2.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig-1.2.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/documentation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/pytoolconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/sources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/sources/ini.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/sources/pyproject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/sources/pytool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/sources/setup_cfg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/sources/source.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/universal_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/pytoolconfig/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/replit-3.2.4.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/replit-3.2.4.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/replit-3.2.4.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/replit-3.2.4.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests-2.28.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests-2.28.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests-2.28.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests_toolbelt-0.9.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/requests_toolbelt-0.9.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope-1.3.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope-1.3.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope-1.3.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope-1.3.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope-1.3.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/builtins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/fscommands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/oi/runmod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/oi/type_hinting/evaluate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/oi/type_hinting/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/prefs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/pyobjects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/pyobjectsdef.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/resources.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/stdmods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/taskhandle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/base/utils/pycompat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/contrib/autoimport/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/contrib/autoimport/sqlite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/contrib/autoimport/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/refactor/change_signature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/refactor/importutils/module_imports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/refactor/occurrences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/refactor/patchedast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/rope/refactor/suites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/shellingham-1.4.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/shellingham-1.4.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/six-1.16.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/six-1.16.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/toml-0.10.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/toml-0.10.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/toml-0.10.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/toml-0.10.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomli-2.0.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomli-2.0.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomli-2.0.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomli-2.0.1.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit-0.11.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit-0.11.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit-0.11.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit/container.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/tomlkit/toml_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/typing_extensions-3.10.0.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/typing_extensions-3.10.0.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/typing_extensions-3.10.0.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/typing_extensions-3.10.0.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ujson-5.4.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ujson-5.4.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ujson-5.4.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ujson-5.4.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ujson-5.4.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/ujson.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3-1.26.12.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3-1.26.12.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3-1.26.12.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3-1.26.12.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3-1.26.12.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/connectionpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/contrib/securetransport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/packages/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/util/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/urllib3/util/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv-20.16.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv-20.16.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv-20.16.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/activator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/bash/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/batch/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/cshell/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/fish/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/nushell/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/nushell/activate.nu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/nushell/deactivate.nu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/powershell/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/python/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/python/activate_this.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/activation/via_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/app_data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/app_data/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/app_data/na.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/app_data/read_only.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/app_data/via_disk_folder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/app_data/via_tempdir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/config/cli/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/config/convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/config/env_var.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/config/ini.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/creator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/describe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/pyenv_cfg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/builtin_way.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/cpython/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/cpython/cpython2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/cpython/cpython3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/cpython/mac_os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/pypy/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/pypy/pypy2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/pypy/pypy3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/python2/python2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/ref.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/builtin/via_global_self_do.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/create/via_global_ref/venv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/discovery/builtin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/discovery/cached_py_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/discovery/discover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/discovery/py_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/discovery/py_spec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/discovery/windows/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/discovery/windows/pep514.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/run/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/run/plugin/activators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/run/plugin/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/run/plugin/creators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/run/plugin/discovery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/run/plugin/seeders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/run/session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/embed/base_embed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/embed/pip_invoke.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/embed/via_app_data/pip_install/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/embed/via_app_data/pip_install/copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/embed/via_app_data/pip_install/symlink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/embed/via_app_data/via_app_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/seeder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/acquire.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/bundle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/embed/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/embed/pip-22.2.1-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/embed/setuptools-63.2.0-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/periodic_update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/seed/wheels/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/error.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/lock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/path/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/path/_permission.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/path/_sync.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/path/_win.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/subprocess/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/util/zipapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/virtualenv/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/webencodings-0.5.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/webencodings-0.5.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/datastructures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/datastructures.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/debug/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/debug/console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/debug/repr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/debug/tbtools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/middleware/lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/routing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/routing/converters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/routing/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/routing/map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/routing/matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/routing/rules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/sansio/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/sansio/multipart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/sansio/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/sansio/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/sansio/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/serving.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/testapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/werkzeug/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/whatthepatch-1.0.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/whatthepatch-1.0.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/whatthepatch-1.0.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/whatthepatch-1.0.2.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yapf-0.32.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yapf-0.32.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yapf-0.32.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yapf-0.32.0.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl-1.8.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl-1.8.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl-1.8.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl-1.8.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl-1.8.1.dist-info/direct_url.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl/_quoting_c.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl/_quoting_c.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl/_quoting_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl/_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/yarl/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/zipp-3.8.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/zipp-3.8.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/lib/python3.8/site-packages/zipp-3.8.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 039 + 040/project-fight-club/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Day 039.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1-step/flight-deals-end.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1-step/flight-deals-start.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1-step/flight-deals-step-2-solution_2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1-step/step3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1-step/step4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1-step/step5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-fight-deal/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-fight-deal/flight_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-fight-deal/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-fight-deal/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-fight-deal/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-fight-club/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-fight-club/flight_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-fight-club/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-fight-club/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-fight-club/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/.ipynb_checkpoints/Days 1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/1. Link file fork &amp; folk project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/2. Link exer 1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/3. Link exer 2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/3. Link exer 3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/4. Link exer 4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/5. Project cuối ngày.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/Day 1.mmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/Days 1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 10/.ipynb_checkpoints/Day 10-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 10/Day 10.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 10/art.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 11/.ipynb_checkpoints/Day 11-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 11/Day 11.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 11/art.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 2/.ipynb_checkpoints/Kiến thức ngày 2-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 2/Exercise 2.1 Data Types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 2/Exercise 2.2 BMI Calculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 2/Exercise 2.3 Life in Weeks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 2/Kiến thức ngày 2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/.ipynb_checkpoints/Day 3-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/Day 3.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/Exercise 3.1 Odd or Even.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/Exercise 3.2 BMI Calculator 2.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/Exercise 3.3 Leap Year.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/Exercise 3.4 Pizza Order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 3/Exercise 3.5 Love Caculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/.ipynb_checkpoints/Day 4 - Random and list-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/.ipynb_checkpoints/my_module-Copy1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/.ipynb_checkpoints/my_module-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Day 4 - Random and list.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Exercise 4.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Exercise 4.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Exercise 4.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/List practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/my_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 5/.ipynb_checkpoints/Day 5-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 5/Day 5.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 5/Exercise 5.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 5/Exercise 5.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 5/Exercise 5.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 5/Exercise 5.4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 6/.ipynb_checkpoints/Days 6-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 6/Days 6.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 7/.ipynb_checkpoints/Days 7-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 7/Days 7.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 8/.ipynb_checkpoints/Day 8-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 8/Day 8.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 8/art.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 9/.ipynb_checkpoints/Day 9-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 9/Day 9.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 9/art.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GApJ7ZtROh8Nwt5mfjBNN8bF8o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Document/Project/100 days of code python/Day 039+040/main.py&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Document\Project\100 days of code python\Day 039 + 040\Day1-step" />
+      <recent name="E:\Document\Project\100 days of code python\Day 039 + 040" />
+      <recent name="E:\Document\Project\100 days of code python\Day 039\Project-fight-deal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Document\Project\100 days of code python\Day 039\project-fight-club" />
+      <recent name="E:\Document\Project\100 days of code python\Day 039" />
+      <recent name="E:\Document\Project\100 days of code python\Day 039 + 040\Day1-step" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Day 039" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff3f6ae0-922f-4d87-922d-d0cdac8347b8" name="Changes" comment="" />
+      <created>1665841167573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665841167573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

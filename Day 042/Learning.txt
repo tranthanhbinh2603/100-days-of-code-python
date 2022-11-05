@@ -1,0 +1,23 @@
+I (Tiếp tục)
+- Thuật ngữ Deprecated - Chỉ những thứ bị bỏ rơi, cũ kĩ, không còn dùng nữa
+- Trong MSN thì bên cạnh thuộc tính có thùng rác đồng nghĩa = Deprecated
+I. Table 
+- Gồm có 3 phần đó là thead, tbody, tfoot. Còn nó là cái gì thì xem trong file Table.html
+
+II. Using HTML Tables for Layout
+- Xem trang web https://cs.dartmouth.edu/~thc/, ta thấy tiêu đề có 1 cột hình và 1 ô thông tin. Ta có thể tạo bảng bằng cách tạo 1 hàng gồm hình ảnh và chữ.
+- Cellspacing - Khoảng cách giữa các ô
+
+III. form in html
+- Gồm có nhiều thuộc tính: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types
+- Đặt trong thẻ tag <form>
+- các kiểu thường dùng: label, input-text, input-submit
+- Tạo form mới, có trong file emailme.html
+- Sang phần javascript, bạn sẽ được học nhiều hơn về những cái này, còn bây giờ nó dừng lại ở mức căn bản
+
+IV. Publish Your Website!
+Bước 1: Tạo tài khoản github
+Bước 2: Up file lên github (dùng kéo thả bằng cách nhấn vào new file -> upload file)
+Bước 3: Vào setting của repo, chọn github pages, chọn đường dẫn, done
+Một số lỗi:
+- Chưa hiện trang web luôn: Chờ tầm nửa tiếng hoặc hơn

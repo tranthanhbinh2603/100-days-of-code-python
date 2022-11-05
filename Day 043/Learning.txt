@@ -1,0 +1,20 @@
+I. Introduction to CSS
+- Làm cho trang web đẹp hơn
+- Có thể dùng để chỉnh màu, font hay căn giữa chữ
+- Nhiều điều khác nữa
+- Xem trang web thập niên 90 xấu đến cỡ nào: http://toastytech.com/evil/index.html
+
+II. Inline CSS
+- Để bắt đầu, copy dữ liệu của ngày trước
+- Trang web mẫu: https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/
+
+- Inline css là css ngay trên html
+- Css học: background-color. 
+- Chú ý: 
++ Chọn màu https://colorhunt.co/
++ giá trị hex của color
++ Tìm kiếm trên google: css + vấn đề
++ Bảng màu css theo level: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+III. Internal CSS
+- Giả sử mà dùng 4 thẻ br mà đổi thuộc tính background color cho cả 4 thẻ theo cách trên rất dễ sai và khó chỉnh sửa sau này. Vì thể kiểu css này được sinh ra.

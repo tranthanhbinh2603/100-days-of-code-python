@@ -1,3 +1,0 @@
-Thư mục project-fight-deal chua dữ liệu mình làm ngày 1
-Thư mục Day1-step chứa các dữ liệu kết quả từng bước ngày 1
-Thư mục project-fight-club chứa dữ liệu code ngày 2 trở đi (bắt đầu cải thiện từ file end ngày 1)
