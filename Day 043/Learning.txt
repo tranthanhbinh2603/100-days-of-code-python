@@ -18,3 +18,17 @@ II. Inline CSS
 
 III. Internal CSS
 - Giả sử mà dùng 4 thẻ br mà đổi thuộc tính background color cho cả 4 thẻ theo cách trên rất dễ sai và khó chỉnh sửa sau này. Vì thể kiểu css này được sinh ra.
+- Cách thêm: Ngay dưới phần head thêm thẻ <style>
+- Cú pháp: <tên thẻ> {<thuộc tính 1>: <giá trị 1>}
+- browser default css: https://www.w3schools.com/cssref/css_default_values.php
+- Thực chất css là làm việc với các hộp https://chrome.google.com/webstore/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi
+- Các thuộc tính: Width, height, phần trăm của màn
+
+IV. External CSS
+- Nếu copy từng cái Internal css cho vào các file khác thì ta sẽ mệt nếu ta copy tầm 200 file. Do vậy cách này sinh ra.
+- Cách làm: Tạo 1 file css mới rồi cho cái ở mục III vào bên trong
+
+V. Debug css
+- Bước 1: Mở devtool lên
+- Bước 2: Thanh console sẽ có cảnh báo lỗi. Bạn sửa cảnh báo lỗi đó
+- Bước 3: Xem tab element và chọn thành phần cần xem trạng thái (như hình 1.png). Có thể bỏ thuộc tính hoặc xem dòng có chứa thuộc tính đó.

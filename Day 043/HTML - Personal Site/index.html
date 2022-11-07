@@ -6,11 +6,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HTML - Personal Site/css/styles.css">
     <title>Document</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        hr{
+            /* background-color: white; */
+            border-style: none;
+            height: 2px;
+            width: 30%; /* <!--Theo co giản màn hình--> */
+            /*Thử thách làm cho thanh hr sang kiểu chấm*/
+            border-style: dotted none none none; /*Kiểu cho 4 phía https://devdocs.io/css/border-style#:~:text=The%20border%2Dstyle%20property%20may%20be%20specified%20using%20one%2C%20two%2C%20three%2C%20or%20four%20values. */
+            height: 0px;
+            /*bỏ background color đi*/
+            border-width: 10px;
+            border-color: grey;
+            
+        }
+    </style>
 </head>
 
 <!--Thêm background color blue bằng inline css, chú ý các dấu "" và ;-->
-<body style="background-color: blue;">
+<body style="background-color: rgb(145, 145, 211);">
     <img src="https://content.photobucket.com/img/home/inset-devices.png" alt="random-picture">
     <!--Thư thách: Thêm title là name của bạn-->
     <h1>Trần Thanh Bình</h1>
