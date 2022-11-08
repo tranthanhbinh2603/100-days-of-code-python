@@ -32,3 +32,9 @@ V. Debug css
 - Bước 1: Mở devtool lên
 - Bước 2: Thanh console sẽ có cảnh báo lỗi. Bạn sửa cảnh báo lỗi đó
 - Bước 3: Xem tab element và chọn thành phần cần xem trạng thái (như hình 1.png). Có thể bỏ thuộc tính hoặc xem dòng có chứa thuộc tính đó.
+
+VI. Cú pháp CSS (The Anatomy of CSS Syntax)
+- Cú pháp: Selector {property : value;}
++ Selector là who? Bạn chỉnh cái gì, h1 hay img
++ property là what?
++ value là How? Chỉnh thành cái gì
