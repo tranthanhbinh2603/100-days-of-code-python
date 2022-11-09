@@ -38,3 +38,14 @@ VI. Cú pháp CSS (The Anatomy of CSS Syntax)
 + Selector là who? Bạn chỉnh cái gì, h1 hay img
 + property là what?
 + value là How? Chỉnh thành cái gì
+- Luôn đặt câu hỏi khi bạn chuẩn bị thay đổi code css
+- Khi lỗi css, nó sẽ không ảnh hưởng nhiều đến trang chính.
+- Luôn có khoảng cách xuống dòng cho css đẹp hơn:
+h1{
+    background: red;
+    bla: bla;
+}
+Không phải: 
+h1{ background: red; bla: bla; }
+- Nên để các thuộc tính theo trạng thái a pha b
+- Phần what có thể tìm ở https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
