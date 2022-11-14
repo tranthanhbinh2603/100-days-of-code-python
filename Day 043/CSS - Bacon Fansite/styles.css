@@ -3,6 +3,14 @@ h1{
     font-size: 200px;
 }
 
-img{
+/* img{
     background-color: red;
+} */
+
+.bacon{
+    background-color: red;
+}
+
+.broccoli{
+    background-color: green;
 }

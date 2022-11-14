@@ -49,3 +49,20 @@ Không phải:
 h1{ background: red; bla: bla; }
 - Nên để các thuộc tính theo trạng thái a pha b
 - Phần what có thể tìm ở https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+VII. CSS Selector
+- Bonus: Tìm hình ảnh: https://emojipedia.org/broccoli/
+- Rõ ràng nếu ta paste hình bông cải xanh kiểu gì thì kiểu nó cũng có nền màu đỏ, tại sao?
++ Vì chúng ta đã css ảnh hưởng đến img
+- Vậy làm sao để phân biệt? Dùng thuộc tính class
+- Cú pháp: Thêm thuộc tính class trong thẻ. Đối với file css, thêm dấu . trước tên thuộc tính
+
+VIII. CSS index
+- Có 3 cách viết css: TAG Selector, class Selector, id Selector
+- Cú pháp: HTML: id="<tên id>", CSS: #<tên id>
+- Chú ý: Trong html:
++ 1 class có thể dùng nhiều lần, nhưng 1 id chỉ xuất hiện 1 lần trong file
++ 2 class có thể áp dụng vào 1 tag, nhưng chỉ 1 id có thể xuất hiện trong 1 tag
+Ex: class="class1 class2" not id="id1 id2"
+- Thường dùng class để định dạng css, còn id dùng để định dạng phần cho trang web (tênweb#id)
+- Pesudo class (:hover) - sự kiện đối với các html

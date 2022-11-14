@@ -1,0 +1,12 @@
+I. Challenge 1
+* Create anew folder called CSS - My Site 
+* Create an index.html 
+* Add the HTML backbone and give your website a title of your name: 
++ Create a css folder and a styles css file 
+: Link up your html and css and give the background an ugly blue color.
+
+II. Tạo icon (favorite icon)
+- Lên https://www.favicon.cc/ tạo 1 icon mới
+- Thêm link kiểu icon, tên là file mới tải về
+- Mẹo: Nếu không hiển thị icon, thêm đằng sau ?v=2 để chắc ăn
+
