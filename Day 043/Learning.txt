@@ -7,7 +7,6 @@ I. Introduction to CSS
 II. Inline CSS
 - Để bắt đầu, copy dữ liệu của ngày trước
 - Trang web mẫu: https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/
-
 - Inline css là css ngay trên html
 - Css học: background-color. 
 - Chú ý: 

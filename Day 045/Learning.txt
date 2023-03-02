@@ -1,0 +1,7 @@
+1. Công cụ
+- Beautiful soup là công cụ giúp dễ dàng bóc tách html tags trong code
+
+2. Cách làm
+- Đọc dữ liệu
+- Lấy tag
+- Làm đẹp

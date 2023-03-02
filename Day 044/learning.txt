@@ -2,11 +2,60 @@ I. Challenge 1
 * Create anew folder called CSS - My Site 
 * Create an index.html 
 * Add the HTML backbone and give your website a title of your name: 
-+ Create a css folder and a styles css file 
-: Link up your html and css and give the background an ugly blue color.
++ Create a css folder and a styles css file : Link up your html and css and give the background an ugly blue color.
 
 II. Tạo icon (favorite icon)
 - Lên https://www.favicon.cc/ tạo 1 icon mới
 - Thêm link kiểu icon, tên là file mới tải về
 - Mẹo: Nếu không hiển thị icon, thêm đằng sau ?v=2 để chắc ăn
 
+III. Tạo header:
+- Tạo 2 header: 1 header là tên, 1 header là công việc
+- Div: Tạo 1 thẻ vô nghĩa cho đến khi áp dụng css vào nó. Dùng để phân cách phần
+- Sửa đổi border trong css và thêm/bớt thuộc tính css trong devtool
+- Colorhunt.
+
+IV. The Box Model of Website Styling
+- 4 tính chất:
++ Văn bản có with và height
++ Đường viền có bolder
++ Khoảng cách giữa đường viên với văn bản có padding
++ Khoảng cách giữa đường viền với các element khác có margin.
+- Có thể chỉnh sửa dễ dàng trên devtool
+- Challenge 1
+- Demo: https://markusvogl.com/web1/interactive_box_model/css_box_demo.html
+- Challenge 2
+
+V. Element display
+- block: hiện xong xuống dòng. Có thể chỉnh các thuộc tính margin, top, left,....
+- inline: hiện xong con trỏ để giữa dòng. Không thể chỉnh thuộc tính
+- inline-block: Có thể hiện xong con trỏ để ở dòng, và chỉnh được luôn cả thuộc tính
+- none: Ẩn luôn element. Nếu muốn ẩn mà vẫn giữ vị trí, có thể dùng visibility: hidden;
+
+VI. Element posi
+- Static: Mặc định
+- position: relative; -> Chỉnh về element dạng chỉnh sửa 4 hướng left right bottom top (sử dụng chính tên thuộc tính)
+- position: absolute; -> Dựa vào đối tượng relative gần nhất để điều chỉnh hướng. Mẹo: Dùng 1 div tạo nên 1 khối absolute hoàn chỉnh (có code ví dụ)
+
+VII. The Dark Art of Centering Elements with CSS
+margin: 0 auto
+
+VIII. Font Styling in Our Personal Site
+- Lên google Font
+
+IX. Font-size
+- set bằng font-size: <size>;
+- 1rem = 1em = 100% = 16px
+- Set để chống bị ảnh hưởng bởi các tính năng của trình duyệt
+
+X. Font
+- color
+- font-weight
+
+IX. Bổ sung 1 số cái
+a. Tạo content lorem tự động
+- https://loremipsum.io/
+- http://lorem-ipsum.perbang.dk/
+b. icon và gif
+- https://www.flaticon.com/
+- https://giphy.com/

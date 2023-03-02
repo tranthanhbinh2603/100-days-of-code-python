@@ -8,7 +8,7 @@ I. Các trình soạn thảo sử dung
 II. Internet thực sự là gì
 - Là 1 dãy các máy tính được kết nối với nhau
 - Có 1 loại là web server: Chúng được bật 24/7, sẵn sàng thực hiện bất cứ truy vấn nào thực hiện trong máy
-- Đường đi của nhậP 1 trang web:
+- Đường đi sau khi nhập 1 trang web:
 + Đầu tiên, máy tính client gửi 1 request đến ISP, sau đó ISP gửi đến DNS Server yêu cầu lấy 1 địa chỉ ip.
 + sau khi dns trả về địa chỉ IP 192.929.292.330 (Example thôi), ngay lập tức client gửi tiếp thêm 1 request lên isp. Lần này, isp sẽ gửi lên Internet backbone (Map của bone có ở https://www.submarinecablemap.com/), tìm máy chu có ip 192.929.292.330, máy chủ trả lại toàn bộ file tất cả các tệp để hiển thị trang web, trả về máy tính client và trang web được hiển thị
 + Tất cả chỉ mất chưa đến vài ms!
