@@ -5,3 +5,8 @@
 - Đọc dữ liệu
 - Lấy tag
 - Làm đẹp
+
+3. Đạo đức
+- Nội dung được phép cào và không
+- File robots.txt (Ex: https://www.youtube.com/robots.txt)
+- DDoS
